@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body{
+                background-image: linear-gradient(to bottom right, #e8f3fe, #cce4fd, #a4cefc, #77b6fb, #4b9cf9, #2382f7, #196bde, #1557c0);
+                color: #595959;
+            }
+
+            @keyframes appear{
+                from{
+                    opacity: 0;
+                    transform: scale(0.5);
+                }
+
+                to{
+                    opacity: 1;
+                    transform: scale(1);;
+                }
+            }
+
+            @keyframes appear2{
+                from{
+                    opacity: 0;
+                    transform: scale(0.5);
+                }
+
+                to{
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+
+            .kunal-img{
+                height: 200px;
+                width: 200px;
+                border: 2px solid black;
+                font-size: 5rem;
+            }
+
+            .fitob{
+                min-height: 32px;
+                min-width: 32px;
+            }
+
+            p{
+                text-indent: 5rem;
+            }
+
+            .rounded-border{
+                border-radius: 20px;
+                border: 1px solid black;
+            }
+
+            .addToContacts{
+                background-color: #a4cefc;
+                height: 60px;
+                width: 250px;
+                border-radius: 50px;
+                color: black;
+            }
+
+            .animateMe{
+                animation: appear linear;
+                animation-timeline: view();
+                animation-range: entry 0% cover 40%; 
+            }
+
+            .animateMe2{
+                animation: appear2 1s linear forwards;
+                animation-timeline: view();
+                animation-range: entry 0% cover 10%; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container d-flex flex-column align-items-center mt-5 mb-5 animateMe">
+            <img src="Kunal Kushwaha.jpg" class="rounded-circle img-fluid kunal-img  mb-2">
+            <span>Kunal Kushwaha</span>
+            <span>Chief Technology Officer / Civo</span>
+        </div>
+
+        <div class="container d-flex justify-content-center mb-5">
+            <div class="row d-flex flex-column w-50 fs-5 rounded-border pb-4 animateMe">
+                <div class="col h2 text-center mt-3 mb-3">Personal Information</div>
+                <div class="col mb-2">
+                    <img src="black icons/email (1).png" class="text-end ms-3">
+                    <span class="ms-2">E-mail: kunalkushal@gmail.com</span>
+                </div>
+                <div class="col mb-2">
+                    <img src="black icons/gender.png" class="text-end ms-3">
+                    <span class="ms-2">Gender: Male</span>
+                </div>
+                <div class="col mb-2">
+                    <img src="black icons/location-pin (1).png" class="text-end ms-3">
+                    <span class="ms-2">Location: Mumbai, India</span>
+                </div>
+                <div class="col mb-2">
+                    <img src="black icons/briefcase (1).png" class="text-end ms-3">
+                    <span class="ms-2">Occupation: Software Developer</span>
+                </div>
+                <div class="col mb-2">
+                    <img src="black icons/flags.png" class="text-end ms-3">
+                    <span class="ms-2">Nationality: Indian</span>
+                </div>
+                <div class="col mb-2">
+                    <img src="black icons/birthday.png" class="text-end ms-3">
+                    <span class="ms-2">DoB: 25<sup>th</sup> June 2025</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto w-75 mb-5 fs-5 pb-4 ps-4 pe-4 rounded-border animateMe">
+            <div class="h3 text-center pt-4 mb-3">Professional Summary</div>
+
+            <p >
+                I'm Kunal Kushwaha, a Developer Advocate and 
+            passionate educator focused on helping beginners break into tech through open-source contributions and community learning.
+            I started my journey by building communities like Code for Cause and diving deep into developer tools,
+            cloud technologies, and DevOps. Through my YouTube channel, workshops, and social media,
+            I aim to simplify complex tech topics and make them accessible to everyone, especially students and self-taught developers.
+            </p>
+
+            <p>
+                I've had the opportunity to work with global developer communities,
+            mentor thousands of learners, and speak at international conferences.
+            My focus is on making tech inclusive, empowering others to build in public,
+            and contributing to open-source ecosystems. Whether it's through contributing code,
+            creating content, or leading initiatives, my goal is to give back to the community that shaped my own journey.
+            </p>
+        </div>
+
+        <div class="container text-center mb-5 w-75 pb-3 rounded-border animateMe2 d-flex flex-column align-items-center">
+            <h3 class="info pt-3 mb-3 ms-2">Contact With Me</h3>
+            <div class="row w-25">
+                <span class="col ms-3 mt-1" style="height: 32px; width: 32px;"><img src="app icons\linkedin (3).png"></span>
+                <span class="col ms-3 mt-1" style="height: 32px; width: 32px;"><img src="app icons\social.png"></span>
+                <span class="col ms-3 mt-1" style="height: 32px; width: 32px;"><img src="app icons\twitter.png"></span>
+                <span class="col ms-3" style="height: 40px; width: 32px;"><img src="app icons\meta_logo-removebg-preview.png"></span>
+            </div>
+        </div>
+
+        <div class="container d-flex justify-content-center mb-4">
+            <div class="addToContacts d-flex justify-content-center fs-5 fw-bold align-items-center animateMe2 btn">
+                <a href="https://www.techwithkunal.com" style="text-decoration: none;"><img src="app icons\add-user.png" style="height:32px; width: 32px;" class="me-2"> 
+                <span>Add to Contacts</span></a>
+            </div>
+        </div>
+    </body>
+</html>
