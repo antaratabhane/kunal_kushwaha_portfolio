@@ -73,7 +73,7 @@ Used for layout management, responsive design, and pre-built components that hel
 This section displays **basic profile information about Kunal Kushwaha**, helping visitors quickly understand who the portfolio represents.
 
 
-<br><br>
+<br>
 
 
 ### 💼 Professional Summary
@@ -81,7 +81,7 @@ This section displays **basic profile information about Kunal Kushwaha**, helpin
 This section provides a **brief overview of professional background, interests, and expertise**, giving visitors a quick introduction to the profile.
 
 
-<br><br>
+<br>
 
 
 ### 📬 Contact Me
